@@ -1,34 +1,100 @@
 html,
 body {
   height: 100%;
+  background-color: var(--bg-color);
+  /* background-image: url('images/moroccan-flower.png'); */
+ 
 }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+  /* --bg-color: white; */
+  --primary: #3f86f1;
+  --dark-blue: #184e9e;
+  --light-blue: #9ac0fa;
+  --secondary:#6c757d;
+  --orangeRed:#ff4500;
+  --text-color:var(--bg-color);
+}
+
+.dark-theme{
+   /* --bg-color: #000106;
+   --primary: #203e4a;
+   --dark-blue: #184e9e;
+   --light-blue: #7f8588; */
+
+   --bg-color: #1a1a1a;
+   --primary: #6c9eff; /* Adjusted for visibility */
+   --dark-blue: #34547d; /* Darker version for better contrast */
+   --light-blue: #7498c9; /* Adjusted for visibility */
+   --secondary: #adb5bd; /* Slightly lighter for better contrast */
+   --orangeRed: #ff7043; 
+   --text-color: white;
+
+}
+
 .navbar a,heading{
     font-family: 'Candal', sans-serif;
+}
+
+.primary{
+  background: var(--primary);
+}
+
+.primary-light{
+  background: var(--light-blue);
+}
+.secondary{
+  background: var(--secondary);
+}
+
+.primary-b{
+  border: solid var(--primary);
+  color: var(--text-color);
+}
+
+
+.moon{
+  width: 30px;
+  cursor: pointer;
+  margin: 8px;
+}
+
+.container .dropdown{
+  flex: 1;
+  text-align: right;
+  margin-right: 15px;
+}
+
+/*home section*/
+.profile-photo-bg{
+  background: var(--primary);
 }
 
 p{
     font-family: 'Lora', sans-serif;
 }
 
-
+#cv-btn:hover{
+   background: var(--primary);
+}
 /*About*/
 .circle {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background-color: blue;
+  background-color: var(--primary);
 }
 
 .line {
   position: absolute;
   width: 2px;
   height: 50px;
-  background-color: blue;
+  background-color: var(--primary);
   transform: translateX(-50%);
 }
 
@@ -55,11 +121,11 @@ p{
 }
 
 span.exp1{
-  color: blue;
+  color: var(--primary);
 }
 
 span.exp2{
-  color: orangered;
+  color: var(--orangeRed);
 }
 
 span.exp3{
@@ -76,6 +142,36 @@ span.exp5{
 
 span.exp6{
   color: yellow;
+}
+
+.contact-btn:hover{
+   background: var(--dark-blue);
+}
+
+.input-group span{
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  color: red;
+}
+
+.input-group span i{
+  color: seagreen;
+}
+
+#submit-error{
+  color: red;
+}
+
+#submit-success{
+  text-align: center;
+  padding: 5px 10px;
+  background: seagreen;
+  color: darkgreen;
+  width: 100%;
+  border: 2px solid darkgreen;
+  border-radius: 5px;
+  display: none;
 }
 /*footer*/
 .footer {
