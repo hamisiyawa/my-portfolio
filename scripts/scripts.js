@@ -66,3 +66,26 @@ function validateForm(){
          return true;
     } 
 }
+
+
+// innitiating download of a file
+
+document.getElementById('cv-btn').addEventListener('click', function() {
+    // Replace the following with your document path
+    const documentPath = 'assets/HAMISI CV3.pdf';
+
+    // Create a temporary anchor element
+    const downloadLink = document.createElement('a');
+    downloadLink.href = documentPath;
+    downloadLink.target = '_blank'; // Open in a new window/tab
+
+    // Trigger a click on the anchor element
+    downloadLink.click();
+
+    // Clean up
+    document.body.removeChild(downloadLink);
+  });
+
+
+
+

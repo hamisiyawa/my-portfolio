@@ -1,377 +1,619 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hamisi Portfolio</title>
-   <!--BOOTSTRAP-->
+    <!--BOOTSTRAP-->
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="styles/font-awesome.min.css">
-    <link href="styles/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/font-awesome.min.css" />
+    <link href="styles/bootstrap.min.css" rel="stylesheet" />
 
-    
-
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style.css" />
 
     <!--fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Candal&family=Lora&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Candal&family=Lora&display=swap"
+      rel="stylesheet"
+    />
 
     <!--fontawesome-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-   
-
-
-</head>
-<body>
-<!--navbar-->
-<nav class="navbar navbar-light primary shadow-sm sticky-top py-0">
-    <div class="container d-flex">
-        <a class="navbar-brand fs-3 " href="#">
-            <img src="images/logo.png" alt="Logo" width="70" height="70" class="mx-2 border border-3 border-danger rounded-circle">  
-            <span class="fw-bold">Hamisi</span> 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div id="loader">
+      <img src="images/loader.gif" alt="" />
+    </div>
+    <!--navbar-->
+    <nav class="navbar navbar-light primary shadow-sm py-0">
+      <div class="container d-flex">
+        <a class="navbar-brand fs-3" href="#">
+          <img
+            src="images/logo.png"
+            alt="Logo"
+            width="70"
+            height="70"
+            class="mx-2 border border-3 border-danger rounded-circle"
+          />
+          <span class="fw-bold">Hamisi</span>
         </a>
 
-        
-      
-        <div class="dropdown ">
-            <button class="btn px-3 border-2 border-dark fs-5" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <i class="fa fa-bars" aria-hidden="true"></i>
-            </button>
-            <ul class="dropdown-menu dropdown-menu-end mt-3 w-50 mt-2">
-              <li><a class="dropdown-item btn" href="#home">Home</a></li>
-              <li><a class="dropdown-item" href="#about">About</a></li>
-              <li><a class="dropdown-item" href="#contact">Contact</a></li>
-            </ul>
+        <div class="dropdown">
+          <button
+            class="btn px-3 border-2 border-dark fs-5"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end mt-3 w-50 mt-2">
+            <li><a class="dropdown-item btn" href="#home">Home</a></li>
+            <li><a class="dropdown-item" href="#about">About</a></li>
+            <li><a class="dropdown-item" href="#contact">Contact</a></li>
+          </ul>
         </div>
 
-        <img src="images/icon-moon.jpg" class="moon" id="dark-light">
-    </div>
-   
-</nav>
-<!--//navbar-->
-<!--main content-->
-<div class="container-lg main-content text-dark">
-    <div class="container">
+        <img src="images/icon-moon.jpg" class="moon" id="dark-light" />
+      </div>
+    </nav>
+    <!--//navbar-->
+    <!--main content-->
+    <div class="container-lg main-content text-dark">
+      <div class="container">
         <section id="home" class="">
-            <div class="row align-items-center align-content-center my-4">
-                <div class="col-md-6 ">
-                    <div class="home-img text-center mt-3">
-                        <img src="images/hm2.png" alt="" class="img-fluid p-2  primary rounded-circle mw-100  " style="height: 300px; width: 300px;  object-fit: contain;">
+          <div class="row align-items-center align-content-center my-4">
+            <div class="col-md-6">
+              <div class="home-img text-center mt-3">
+                <img
+                  src="images/hm2.png"
+                  alt=""
+                  class="img-fluid p-2 primary rounded-circle mw-100"
+                  style="height: 300px; width: 300px; object-fit: contain"
+                />
+              </div>
+            </div>
+            <div class="col-md-6 p-3 pt-0">
+              <div class="moving-text-container primary mt-3 mb-3 rounded">
+                <div class="row">
+                  <div class="col-md-8">
+                    <div class="moving-text text-nowrap fs-5 fw-bold">
+                      Hello, I am Hamisi yawa, Web Developer For Both FrontEnd
+                      and Backend.
                     </div>
-                    
+                  </div>
                 </div>
-                <div class=" col-md-6 p-3 pt-0">
-                    <div class="moving-text-container primary mt-3 mb-3 rounded">
-                        <div class="row">
-                            <div class="col-md-8">
-                              <div class="moving-text text-nowrap fs-5 fw-bold">
-                                 Hello, I am Hamisi yawa,  Web Developer For Both FrontEnd and Backend.
+              </div>
+
+              <div class="pt-3 pb-3 pl-3 border-2 primary-b p-3 mb-2 rounded">
+                <p class="mb-1">Hello, I am a</p>
+                <h1 class="fw-bold">WEB DEVELOPER</h1>
+                <h2 class="fs-4">Hamisi Yawa</h2>
+                <p>
+                  A multifaceted professional with a passion for transforming
+                  digital landscapes. As a seasoned Web Developer, IT Support
+                  and Consultant, Web Designer, and SEO enthusiast, I bring a
+                  diverse skill set to the table, ensuring a holistic approach
+                  to every project.
+                </p>
+              </div>
+              <div class="d-flex justify-content-end">
+                <button
+                  type="button"
+                  class="btn border-2 primary-b fw-bold px-3 py-2"
+                  id="cv-btn"
+                >
+                  Download My Cv
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--ABOUT SECTION-->
+        <section id="about" style="min-height: 200px" class="mb-2">
+          <h3 class="primary text-center py-2">About Me</h3>
+          <div class="row justify-content-center">
+            <div class="col-md-12">
+              <div class="secondary p-3 box">
+                <div class="accordion" id="Mainaccordion">
+                  <div class="accordion-item">
+                    <div class="accordion-header">
+                      <button
+                        class="accordion-button"
+                        data-bs-target="#Experience"
+                        data-bs-toggle="collapse"
+                      >
+                        <span class="fs-4">Experience</span>
+                      </button>
+                    </div>
+
+                    <div
+                      class="collapse"
+                      id="Experience"
+                      data-bs-parent="#Mainaccordion"
+                    >
+                      <div
+                        class="accordion-body border-start border-3 border-info"
+                      >
+                        <ul>
+                          <li>
+                            <span class="exp1 fs-6">HTML5</span> I have 5 years
+                            Experience
+                          </li>
+                          <li>
+                            <span class="exp2 fs-6">CSS</span> I have 5 years
+                            Experience
+                          </li>
+                          <li>
+                            <span class="exp3 fs-6">BOOTSRAP</span> I have 3
+                            years Experience
+                          </li>
+                          <li>
+                            <span class="exp4 fs-6">JavaScript</span> I have 4
+                            years Experience
+                          </li>
+                          <li>
+                            <span class="exp5 fs-6">PHP</span> I have 3 years
+                            Experience
+                          </li>
+                          <li>
+                            <span class="exp6 fs-6">MYSQL DATABASE</span> I have
+                            2 years Experience
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <div class="accordion-header">
+                      <button
+                        class="accordion-button"
+                        data-bs-target="#skills"
+                        data-bs-toggle="collapse"
+                      >
+                        <span class="fs-4">Skills</span>
+                      </button>
+                    </div>
+
+                    <div
+                      class="collapse"
+                      id="skills"
+                      data-bs-parent="#Mainaccordion"
+                    >
+                      <div
+                        class="accordion-body border-start border-3 border-info"
+                      >
+                        <div class="container-lg">
+                          <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                              <div class="title text-center">
+                                <h2 class="fw-bold mb-4">Skills</h2>
                               </div>
                             </div>
-                           
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-12 mb-3">
+                              <h3 class="fs-6">HTML5</h3>
+                              <div class="progress" style="height: 8px">
+                                <div
+                                  class="progress-bar bg-prim8p"
+                                  role="progressbar"
+                                  aria-label="Success example"
+                                  style="width: 100%"
+                                  aria-valuenow="100"
+                                  aria-valuemin="0"
+                                  aria-valuemax="100"
+                                ></div>
+                              </div>
+
+                              <h3 class="fs-6">CSS</h3>
+                              <div class="progress" style="height: 8px">
+                                <div
+                                  class="progress-bar bg-warn8p"
+                                  role="progressbar"
+                                  aria-label="Success example"
+                                  style="width: 98%"
+                                  aria-valuenow="98"
+                                  aria-valuemin="0"
+                                  aria-valuemax="100"
+                                ></div>
+                              </div>
+
+                              <h3 class="fs-6">BOOTSTRAP</h3>
+                              <div class="progress" style="height: 8px">
+                                <div
+                                  class="progress-bar bg-success"
+                                  role="progressbar"
+                                  aria-label="Success example"
+                                  style="width: 70%"
+                                  aria-valuenow="25"
+                                  aria-valuemin="0"
+                                  aria-valuemax="100"
+                                ></div>
+                              </div>
+
+                              <h3 class="fs-6">JAVASCRIPT</h3>
+                              <div class="progress" style="height: 8px">
+                                <div
+                                  class="progress-bar bg-danger"
+                                  role="progressbar"
+                                  aria-label="Success example"
+                                  style="width: 75%"
+                                  aria-valuenow="25"
+                                  aria-valuemin="0"
+                                  aria-valuemax="100"
+                                ></div>
+                              </div>
+                            </div>
+                          </div>
                         </div>
-                       
+                      </div>
                     </div>
-                    
-                    <div class="pt-3 pb-3 pl-3 border-2 primary-b p-3 mb-2 rounded">
-                        <p class="mb-1">Hello, I am a</p>
-                        <h1 class="fw-bold">WEB DEVELOPER</h1>
-                        <h2 class="fs-4">Hamisi Yawa</h2>
-                        <p>A multifaceted professional with a passion for transforming digital landscapes. 
-                            As a seasoned Web Developer, IT Support and Consultant, Web Designer, 
-                            and SEO enthusiast, I bring a diverse skill set to the table, 
-                            ensuring a holistic approach to every project.</p>
+                  </div>
+
+                  <div class="accordion-item">
+                    <div class="accordion-header">
+                      <button
+                        class="accordion-button"
+                        data-bs-target="#services"
+                        data-bs-toggle="collapse"
+                      >
+                        <span class="fs-4">Services</span>
+                      </button>
                     </div>
-                    <div class="d-flex justify-content-end">
-                        <button type="button" class="btn border-2 primary-b fw-bold px-3 py-2 " id="cv-btn">Download My Cv</button>
+
+                    <div
+                      class="collapse"
+                      id="services"
+                      data-bs-parent="#Mainaccordion"
+                    >
+                      <div
+                        class="accordion-body border-start border-3 border-info"
+                      >
+                        <div class="container-lg">
+                          <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                              <div class="title text-center">
+                                <h4 class="fw-bold mb-4">What I Do</h4>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="row text-center">
+                            <div class="col-md-6 col-lg-4 mb-4">
+                              <div
+                                class="services-item shadow-sm p-4 rounded bg-white"
+                              >
+                                <div class="icon my-3 text-info fs-2">
+                                  <i class="fas fa-code"></i>
+                                </div>
+                                <h3 class="fs-5 py-2">Web Development</h3>
+                                <p class="text-muted">
+                                  I do FrontEnd web development using html,css
+                                  and react js
+                                </p>
+                              </div>
+                            </div>
+
+                            <div class="col-md-6 col-lg-4 mb-4">
+                              <div
+                                class="services-item shadow-sm p-4 rounded bg-white"
+                              >
+                                <div class="icon my-3 text-info fs-2">
+                                  <i class="fas fa-lightbulb"></i>
+                                </div>
+                                <h3 class="fs-5 py-2">Web Design</h3>
+                                <p class="text-muted">
+                                  I do Creative web designs using figma and
+                                  canva
+                                </p>
+                              </div>
+                            </div>
+
+                            <div class="col-md-6 col-lg-4 mb-4">
+                              <div
+                                class="services-item shadow-sm p-4 rounded bg-white"
+                              >
+                                <div class="icon my-3 text-info fs-2">
+                                  <i class="fas fa-code"></i>
+                                </div>
+                                <h3 class="fs-5 py-2">
+                                  Search Engine Optimization
+                                </h3>
+                                <p class="text-muted">
+                                  I perfom SEO to websites for easier
+                                  accessibility and to improve loading speed of
+                                  websites
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                    
+                  </div>
+                  <div class="accordion-item">
+                    <div class="accordion-header">
+                      <button
+                        class="accordion-button"
+                        data-bs-target="#projects"
+                        data-bs-toggle="collapse"
+                      >
+                        <span class="fs-4">Projects</span>
+                      </button>
+                    </div>
+
+                    <div
+                      class="collapse"
+                      id="projects"
+                      data-bs-parent="#Mainaccordion"
+                    >
+                      <div
+                        class="accordion-body border-start border-3 border-info"
+                      >
+                        <div class="container-lg py-4">
+                          <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                              <div class="title text-center">
+                                <h4 class="fw-bold mb-4">My Recent Projects</h4>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="row">
+                            <div class="col-md-6 col-lg-4">
+                              <div class="project-item">
+                                <img
+                                  src="images/ecommarce.PNG"
+                                  class="w-100 img-thumbnail"
+                                  alt="project image"
+                                />
+                                <h3 class="text-capitalize fs-5 my-2">
+                                  An Ecommerce website
+                                </h3>
+                                <p class="mb-4">
+                                  <a
+                                    href="#"
+                                    class="text-decoration-none text-primary"
+                                    >Live Demo</a
+                                  >
+                                </p>
+                              </div>
+                            </div>
+
+                            <div class="col-md-6 col-lg-4">
+                              <div class="project-item">
+                                <img
+                                  src="images/student-sys.PNG"
+                                  class="w-100 img-thumbnail"
+                                  alt="project image"
+                                />
+                                <h3 class="text-capitalize fs-5 my-2">
+                                  Student Checkout System
+                                </h3>
+                                <p class="mb-4">
+                                  <a
+                                    href="#"
+                                    class="text-decoration-none text-primary"
+                                    >Live Demo</a
+                                  >
+                                </p>
+                              </div>
+                            </div>
+
+                            <div class="col-md-6 col-lg-4">
+                              <div class="project-item">
+                                <img
+                                  src="images/intern-portal.PNG"
+                                  class="w-100 img-thumbnail"
+                                  alt="project image"
+                                />
+                                <h3 class="text-capitalize fs-5 my-2">
+                                  An Internship Portal
+                                </h3>
+                                <p class="mb-4">
+                                  <a
+                                    href="#"
+                                    class="text-decoration-none text-primary"
+                                    >Live Demo</a
+                                  >
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
         </section>
-<!--ABOUT SECTION-->
-        <section  id="about" style="min-height: 200px;" class="mb-2">
-            <h3 class="primary text-center py-2">About Me</h3>
-             <div class="row justify-content-center">
-                <div class=" col-md-12">
-                    <div class="secondary  p-3 box">
-                       <div class="accordion" id="Mainaccordion">
-                          <div class="accordion-item">
-                            <div class="accordion-header">
-                                <button class="accordion-button" data-bs-target="#Experience" data-bs-toggle="collapse">
-                                   <span class="fs-4">Experience</span>
-                                </button>
-                            </div>
-
-                            <div class="collapse" id="Experience" data-bs-parent="#Mainaccordion">
-                                <div class="accordion-body border-start border-3 border-info">
-                                    <ul>
-                                        <li><span class="exp1 fs-6">HTML5</span> I have 5 years Experience</li>
-                                        <li><span class="exp2 fs-6">CSS</span> I have 5 years Experience</li>
-                                        <li><span class="exp3 fs-6">BOOTSRAP</span> I have 3 years Experience</li>
-                                        <li><span class="exp4 fs-6">JavaScript</span> I have 4 years Experience</li>
-                                        <li><span class="exp5 fs-6">PHP</span> I have 3 years Experience</li>
-                                        <li><span class="exp6 fs-6">MYSQL DATABASE</span> I have 2 years Experience</li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                          </div>
-                          <div class="accordion-item">
-                            <div class="accordion-header">
-                                <button class="accordion-button" data-bs-target="#skills" data-bs-toggle="collapse">
-                                   <span class="fs-4">Skills</span>
-                                </button>
-                            </div>
-
-                            <div class="collapse" id="skills" data-bs-parent="#Mainaccordion">
-                                <div class="accordion-body border-start border-3 border-info">
-                                    <div class="container-lg">
-                                        <div class="row justify-content-center">
-                                            <div class="col-lg-8">
-                                                <div class="title text-center">
-                                                     <h2 class="fw-bold mb-4">Skills</h2>
-                                                </div>
-                                               
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                        <div class="col-sm-12 mb-3">
-                                            <h3 class="fs-6">HTML5</h3>
-                                            <div class="progress" style="height: 8px;" >
-                                                <div class="progress-bar bg-prim8p" role="progressbar" aria-label="Success example" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                                            </div>
-
-                                            <h3 class="fs-6">CSS</h3>
-                                            <div class="progress" style="height: 8px;" >
-                                                <div class="progress-bar bg-warn8p" role="progressbar" aria-label="Success example" style="width: 98%" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
-                                            </div>
-
-                                            <h3 class="fs-6">BOOTSTRAP</h3>
-                                            <div class="progress" style="height: 8px;" >
-                                                <div class="progress-bar bg-success" role="progressbar" aria-label="Success example" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                            </div>
-
-                                            <h3 class="fs-6">JAVASCRIPT</h3>
-                                            <div class="progress" style="height: 8px;" >
-                                                <div class="progress-bar bg-danger" role="progressbar" aria-label="Success example" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                    </div>
-                                 
-                                </div>
-                            </div>
-
-                          </div>
-
-                          <div class="accordion-item">
-                            <div class="accordion-header">
-                                <button class="accordion-button" data-bs-target="#services" data-bs-toggle="collapse">
-                                   <span class="fs-4">Services</span>
-                                </button>
-                            </div>
-
-                            <div class="collapse" id="services" data-bs-parent="#Mainaccordion">
-                                <div class="accordion-body border-start border-3 border-info">
-                                    <div class="container-lg">
-                                        <div class="row justify-content-center">
-                                            <div class="col-lg-8">
-                                                <div class="title text-center">
-                                                    <h4 class="fw-bold mb-4">What I Do</h4>
-                                                </div>
-                                               
-                                            </div>
-                                        </div>
-
-                                        <div class="row text-center">
-                                            <div class="col-md-6 col-lg-4 mb-4">
-                                                <div class="services-item shadow-sm p-4 rounded bg-white">
-                                                     <div class="icon my-3 text-info fs-2">
-                                                       <i class="fas fa-code"></i>
-                                                     </div>
-                                                     <h3 class="fs-5 py-2">Web Development</h3>
-                                                     <p class="text-muted">I do FrontEnd web development using html,css and react js</p>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-md-6 col-lg-4 mb-4">
-                                                <div class="services-item shadow-sm p-4 rounded bg-white">
-                                                     <div class="icon my-3 text-info fs-2">
-                                                       <i class="fas fa-lightbulb"></i>
-                                                     </div>
-                                                     <h3 class="fs-5 py-2">Web Design</h3>
-                                                     <p class="text-muted">I do Creative web designs using figma and canva</p>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-md-6 col-lg-4 mb-4">
-                                                <div class="services-item shadow-sm p-4 rounded bg-white">
-                                                     <div class="icon my-3 text-info fs-2">
-                                                       <i class="fas fa-code"></i>
-                                                     </div>
-                                                     <h3 class="fs-5 py-2">Search Engine Optimization</h3>
-                                                     <p class="text-muted">I perfom SEO to websites for easier accessibility and to improve loading speed of websites</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
-                                </div>
-                            </div>
-
-                          </div>
-                          <div class="accordion-item">
-                            <div class="accordion-header">
-                                <button class="accordion-button" data-bs-target="#projects" data-bs-toggle="collapse">
-                                   <span class="fs-4">Projects</span>
-                                </button>
-                            </div>
-
-                            <div class="collapse" id="projects" data-bs-parent="#Mainaccordion">
-                                <div class="accordion-body border-start border-3 border-info">
-                                    <div class="container-lg py-4">
-                                        <div class="row justify-content-center">
-                                            <div class="col-lg-8">
-                                                <div class="title text-center">
-                                                    <h4 class="fw-bold mb-4">My Recent Projects</h4>
-                                                </div>
-                                               
-                                            </div>
-                                        </div>
-
-                                        <div class="row">
-                                            <div class="col-md-6 col-lg-4">
-                                                <div class="project-item">
-                                                    <img src="images/ecommarce.PNG" class="w-100 img-thumbnail" alt="project image">
-                                                    <h3 class="text-capitalize fs-5 my-2">An Ecommerce website</h3>
-                                                    <p class="mb-4"><a href="#" class="text-decoration-none text-primary">Live Demo</a></p>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-md-6 col-lg-4">
-                                                <div class="project-item">
-                                                    <img src="images/student-sys.PNG" class="w-100 img-thumbnail" alt="project image">
-                                                    <h3 class="text-capitalize fs-5 my-2">Student Checkout System</h3>
-                                                    <p class="mb-4"><a href="#" class="text-decoration-none text-primary">Live Demo</a></p>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-md-6 col-lg-4">
-                                                <div class="project-item">
-                                                    <img src="images/intern-portal.PNG" class="w-100 img-thumbnail" alt="project image">
-                                                    <h3 class="text-capitalize fs-5 my-2">An Internship Portal</h3>
-                                                    <p class="mb-4"><a href="#" class="text-decoration-none text-primary">Live Demo</a></p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                          </div>
-                       </div>
-                    </div>
+        <!--CONTACT SECTION-->
+        <section id="contact" style="min-height: 500px" class="">
+          <h2 class="primary text-center py-2">contact</h2>
+          <div class="row bg-secondary mx-1 my-3 p-4">
+            <div class="col-md-6">
+              <div class="row">
+                <h4 class="text-center mt-2 text-light">Follow Me On:</h4>
+                <div class="container d-flex m-3 justify-content-center">
+                  <span class="align-middle mt-3">
+                    <a
+                      href="https://web.facebook.com/mrina.yash/"
+                      target="_blank"
+                      ><img
+                        src="images/fb.png"
+                        class="social-icons m-2 rounded-circle"
+                        alt=""
+                    /></a>
+                    <a
+                      href="https://www.instagram.com/hamso_artz/"
+                      target="_blank"
+                      ><img
+                        src="images/instagram.jpeg"
+                        class="social-icons m-2 rounded-circle"
+                        alt=""
+                    /></a>
+                    <a
+                      href="https://www.linkedin.com/in/hamisi-yawa-101a6a23b/"
+                      target="_blank"
+                      ><img
+                        src="images/linkedin2.png"
+                        class="social-icons m-2 rounded-circle"
+                        alt=""
+                    /></a>
+                    <a href=""
+                      ><img
+                        src="images/whatsapp.png"
+                        class="social-icons m-2 rounded-circle"
+                        alt=""
+                    /></a>
+                  </span>
                 </div>
-             </div>
-              
-        </section>
-<!--CONTACT SECTION-->
-        <section id="contact" style="min-height: 500px;" class="">
-            <h2 class="primary text-center  py-2 ">contact</h2>
-            <div class="row bg-secondary mx-1 my-3 p-4">
-                <div class="col-md-6">
-                    <div class="row">
-                       <h4 class="text-center mt-2 text-light">Follow Me On:</h4>
-                        <div class="container d-flex m-3 justify-content-center">
-                            <span class="align-middle mt-3">
-                            <a href="https://web.facebook.com/mrina.yash/" target="_blank"><img src="images/fb.png" class="social-icons m-2 rounded-circle" alt=""></a>
-                            <a href="https://www.instagram.com/hamso_artz/" target="_blank"><img src="images/instagram.jpeg" class="social-icons m-2 rounded-circle"  alt=""></a>
-                            <a href="https://www.linkedin.com/in/hamisi-yawa-101a6a23b/" target="_blank"><img src="images/linkedin2.png" class="social-icons m-2 rounded-circle"  alt=""></a>
-                            <a href=""><img src="images/whatsapp.png" class="social-icons m-2 rounded-circle" alt=""></a>
-                            </span>
-                        </div> 
-                    </div>
+              </div>
 
-                    <div class="row">
-                        <div class="col-md-12">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d254532.60874064907!2d39.1541491!3d-4.5810916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sgoogle%20map%20my%20location%20live!5e0!3m2!1sen!2ske!4v1696834392091!5m2!1sen!2ske" width="100%" height="250" style="border-radius: 5px;" class="primary-b" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        </div>
-                    </div>
-                    
-
+              <div class="row">
+                <div class="col-md-12">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d254532.60874064907!2d39.1541491!3d-4.5810916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sgoogle%20map%20my%20location%20live!5e0!3m2!1sen!2ske!4v1696834392091!5m2!1sen!2ske"
+                    width="100%"
+                    height="250"
+                    style="border-radius: 5px"
+                    class="primary-b"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
                 </div>
-
-                <div class="col-md-6">
-                    <h4 class="text-center mt-2 text-light">Send Me a Mesage</h4>
-                    <p id="submit-success"></p>
-                    <form action="#contact" class="m-2 text-light">
-                        <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label">Name</label>
-                            <div class="input-group">
-                                  <input type="name" class="form-control" id="name" placeholder="Your Name" onkeyup="validateName()">
-                                  <span id="name-error"></span>
-                            </div>  
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                            <div class="input-group">
-                                <input type="email" class="form-control" id="email" placeholder="name@example.com" onkeyup="validateEmail()">
-                                <span id="email-error"></span>
-                            </div>
-                            
-                        </div>
-                        <div class="mb-2">
-                            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                            <div class="input-group">
-                                 <textarea class="form-control" id="subject" rows="3" onkeyup="validateSubject()"></textarea>
-                                 <span id="subject-error"></span>
-                            </div>
-                           
-                        </div>
-                        <button type="submit" onclick="return validateForm()" class="btn contact-btn primary px-3 py-2 w-100 my-2">SUBMIT</button>
-                        <span id="submit-error"></span>
-                    </form>
-                </div>
+              </div>
             </div>
-           
+
+            <div class="col-md-6">
+              <h4 class="text-center mt-2 text-light">Send Me a Mesage</h4>
+              <p id="submit-success"></p>
+              <form
+                action="#contact"
+                class="m-2 text-light"
+                onsubmit="sendEmail(); reset(); return false;"
+              >
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >Name</label
+                  >
+                  <div class="input-group">
+                    <input
+                      type="name"
+                      class="form-control"
+                      id="name"
+                      placeholder="Your Name"
+                      onkeyup="validateName()"
+                    />
+                    <span id="name-error"></span>
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >Email address</label
+                  >
+                  <div class="input-group">
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      placeholder="name@example.com"
+                      onkeyup="validateEmail()"
+                    />
+                    <span id="email-error"></span>
+                  </div>
+                </div>
+                <div class="mb-2">
+                  <label for="exampleFormControlTextarea1" class="form-label"
+                    >Example textarea</label
+                  >
+                  <div class="input-group">
+                    <textarea
+                      class="form-control"
+                      id="subject"
+                      rows="3"
+                      onkeyup="validateSubject()"
+                    ></textarea>
+                    <span id="subject-error"></span>
+                  </div>
+                </div>
+                <button
+                  type="submit"
+                  onclick="return validateForm()"
+                  class="btn contact-btn primary px-3 py-2 w-100 my-2"
+                >
+                  SUBMIT
+                </button>
+                <span id="submit-error"></span>
+              </form>
+            </div>
+          </div>
         </section>
+      </div>
     </div>
-</div>
-<!--//main content-->
-<!--FOOTER-->
-<footer class="footer mt-auto py-3 primary-light">
-    <div class="container text-center">
-      <span class="text-dark" style="font-size: 20px;" id="footer-content"> 
-        <script>
-        const currentYear = new Date().getFullYear();
-        document.write('copywrite@hamisiyawa ' + currentYear);
-      </script>
-      </span>
-    </div>
-</footer>
-<!--//FOOTER-->
-<!--js bootstrap cdn-->
-<!-- Latest compiled JavaScript -->
-<script>
- var moonSunToggle = document.getElementById('dark-light');
- moonSunToggle.onclick= function() {
-    document.body.classList.toggle('dark-theme');
-    if(document.body.classList.contains('dark-theme')){
-        moonSunToggle.src = "images/sun-white.png";
-    }else{
-        moonSunToggle.src = "images/icon-moon.jpg";
-    }
- }
- 
-</script>
-<script src="scripts/scripts.js"></script>
-<script src="scripts/bootstrap.bundle.min.js"></script>
-</body>
+    <!--//main content-->
+    <!--FOOTER-->
+    <footer class="footer mt-auto py-3 primary-light">
+      <div class="container text-center">
+        <span class="text-dark" style="font-size: 20px" id="footer-content">
+          <script>
+            const currentYear = new Date().getFullYear();
+            document.write("copywrite@hamisiyawa " + currentYear);
+          </script>
+        </span>
+      </div>
+    </footer>
+    <!--//FOOTER-->
+    <!--js bootstrap cdn-->
+    <!-- Latest compiled JavaScript -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+      //script to send email
+      var name = document.getElementById("name").value;
+      var email = document.getElementById("email").value;
+      var subject = document.getElementById("subject").value;
+
+      function sendEmail() {
+        Email.send({
+          Host: "smtp.gmail.com",
+          Username: "hamisiyawa99@gmail.com",
+          Password: "961B5F95D5069FE5D2BEDBE7CC5B41FB581E",
+          To: "hamisiyawa99@gmail.com",
+          From: email,
+          Subject: "Email Inquiry from " + name,
+          Body: subject,
+        }).then((message) => alert(message));
+      }
+    </script>
+    <script>
+      var moonSunToggle = document.getElementById("dark-light");
+      moonSunToggle.onclick = function () {
+        document.body.classList.toggle("dark-theme");
+        if (document.body.classList.contains("dark-theme")) {
+          moonSunToggle.src = "images/sun-white.png";
+        } else {
+          moonSunToggle.src = "images/icon-moon.jpg";
+        }
+      };
+    </script>
+    <script>
+      var loader = document.getElementById("loader");
+      window.addEventListener("load", function () {
+        loader.style.display = "none";
+      });
+    </script>
+
+    <script src="scripts/scripts.js"></script>
+    <script src="scripts/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
